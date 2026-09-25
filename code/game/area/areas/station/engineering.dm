@@ -94,6 +94,10 @@
 	icon_state = "engine_storage"
 	sound_environment = SOUND_AREA_SMALL_ENCLOSED
 
+/area/station/engineering/storage_shared
+	name = "Shared Engineering Storage"
+	icon_state = "engine_storage_shared"
+
 /area/station/engineering/storage/tech
 	name = "Technical Storage"
 	icon_state = "tech_storage"

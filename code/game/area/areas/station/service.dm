@@ -96,6 +96,14 @@
 	name = "\improper Library Printer Room"
 	icon_state = "library"
 
+/area/station/service/library/movie
+	name = "\improper Library Movie Theater"
+	icon_state = "library"
+
+/area/station/service/library/game
+	name = "\improper Library Game Room"
+	icon_state = "library"
+
 /*
 * Chapel/Pubby Monestary Areas
 */
@@ -136,6 +144,9 @@
 /area/station/service/chapel/funeral
 	name = "\improper Chapel Funeral Room"
 	icon_state = "chapelfuneral"
+
+/area/station/service/chapel/hall
+	name = "\improper Chapel Hallway"
 
 /area/station/service/hydroponics/garden/monastery
 	name = "\improper Monastery Garden"

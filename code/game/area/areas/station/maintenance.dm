@@ -11,7 +11,7 @@
 	ambient_buzz = 'sound/ambience/source_corridor2.ogg'
 	ambient_buzz_vol = 50
 	astar_weight = 10
-	anchor_roundstart_lockers = FALSE
+	anchor_roundstart_lockers = TRUE
 
 /*
 * Departmental Maintenance

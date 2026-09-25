@@ -19,10 +19,6 @@
 /obj/effect/light_emitter/singularity_act()
 	return
 
-/obj/effect/light_emitter/thunderdome
-	set_cap = 0.7
-	set_luminosity = 1.6
-
 /obj/effect/light_emitter/fake_outdoors
 	light_color = COLOR_LIGHT_YELLOW
 	set_cap = 1
@@ -145,6 +141,9 @@
 
 /obj/docking_port/stationary/mining_home/common/northstar
 	roundstart_template = /datum/map_template/shuttle/mining_common/northstar
+
+/obj/docking_port/stationary/mining_home/common/loop
+	roundstart_template = /datum/map_template/shuttle/mining_common/loop
 
 /**********************Mining car (Crate like thing, not the rail car)**************************/
 

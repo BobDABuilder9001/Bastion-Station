@@ -325,9 +325,6 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 	name = "Observer-Start"
 	icon_state = "observer_start"
 
-/obj/effect/landmark/tutorial_start
-	name = "tutorial_start"
-
 //generic maintenance locations
 /obj/effect/landmark/generic_maintenance_landmark
 	name = "generic_maintenance_spawn"
@@ -706,6 +703,9 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark/start/new_player)
 
 /obj/effect/landmark/navigate_destination/dockescpod4
 	location = "Escape Pod 4 Dock"
+
+/obj/effect/landmark/navigate_destination/dockescpod5
+	location = "Escape Pod 5 Dock"
 
 /obj/effect/landmark/navigate_destination/dockaux
 	location = "Auxiliary Dock"
